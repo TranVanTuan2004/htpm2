@@ -5,7 +5,7 @@ $configDB["database"]	= "computer_store";
 $configDB["username"] 	= "root";
 $configDB["password"] 	= "";
 $configDB["port"] 	= "3307";
-define("HOST", "host.docker.internal:3308");
+define("HOST", "mysql_app_2:3306");
 define("DB_NAME", "computer_store");
 define("DB_USER", "root");
 define("DB_PASS", "");
